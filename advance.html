@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advance Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+     <body >
+      <div class="jumbotron  jumbotron-fluid" style="margin-bottom:10px;" >
+      <div class="row mx-auto" >
+       
+          
+       <div class="col-6" style="text-align:left;">
+      &ensp;<span class = "blue small">G</span><span class = "red small">o</span><span class ="orange small">o</span><span class = "blue small">g</span><span class="green small">l</span><span class = "red small">e</span>
+       </div>
+       
+       <div class="col-6">
+       <a href = "index.html">Google Search</a>
+       </div>
+          
+       </div>
+       </div>
+         
+     <div id="final" >
+     <div class="row mx-auto" style="margin-bottom:2px;">
+
+     <div class="col-8" id ="advance">Advanced Search</div>
+     <div class="col-4" style="font-size:18px;">How to use search box</div>
+     </div>     
+     <form action="http://www.google.com/search">   
+     <div class="row mx-auto" >
+     <div class="col-2">all these words</div>  
+     <div class="col-6" ><input type="text"  autocomplete="off" class="jfk-textinput" name="as_q"></div>
+     <div class="col-4">Enter keywords: Golden Retriever</div>
+      </div>
+         
+      <div class="row mx-auto"> 
+      <div class="col-2">this exact word or phrase</div>    
+     <div class="col-6"><input type="text" autocomplete="off" class="jfk-textinput" name="as_epq"></div>
+     <div class="col-4">Put quotation marks around and specify exactly matching words: "Golden Retriever"</div> 
+     </div>
+     <div class="row mx-auto" >
+    <div class="col-2">any of these words</div>    
+     <div class="col-6"><input type="text" autocomplete="off" class="jfk-textinput" name="as_oq"></div>
+     <div class="col-4">Enter OR between search terms : small OR criteria</div>    
+    </div>
+    <div class="row mx-auto">
+     <div class="col-2">none of these words</div>    
+     <div class="col-6"><input type="text" autocomplete="off" class="jfk-textinput" name="as_eq"></div>
+     <div class="col-4">Put a minus sign in front of the words you want to exclude: -Golden, -"Labrador"</div>     
+     </div> 
+     <input type="submit" value="Advance Search" id ="button" style="margin-left:5px;">    
+     </form>    
+     </div>     
+      
+    </body>
+</html>
